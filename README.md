@@ -24,11 +24,12 @@ Mi proposito personal es culminar mis estudios universitarios lic. Bellas Artes,
 En cuanto a mis actividades practico deportes extremos, danza, senderismo,surf,skate, escuchar musica clásica, realizar esculturas, nadar, voleibol, catar vino, diseñar, trabajo social y me encanta, amo leer ya que me genera mucha inspiracion para crear o realizar mis metas. xo
 
 ---
-#### Yaneika Nieto
-Hola Soy Yaneika tengo 26 años, soy de Panama, Colón
-Futura Ing.En Operaciones Logistica, soy emprendedora en el campo de decoración de fiesta y cultura.
-En mis tiempo libres me dedico a el baile folclorico de mi pais y al turismo interno.
-La programación es un reto para mi, es totalmente diferente a lo que estoy acostumbrada a ver, spy novata en el campo pero con muchas ganas de aprender todo lo que se pueda.
+#### Luis A. Gonzalez Levy (El Muchacho Escandao)
+¡Hola! Soy Luis tengo 24 años, soy sociable, divertido y carismatico, mi mayor poder es la conversacion, soy empatico y atrevido.
+Mis actividades diarias se dividen entre dirigir dos clinicas privadas ya que soy Gerente Administrativo e ir a la Universidad.
+Mi proposito personal es cumplir con este curso y ascender como persona tanto profesional como individualmente.
+Mi mayor distraccion es la musica, la danza y la lectura.
+Me gustaria dirigirme en el Front End pues siento que es donde mas me desenvuelvo.
 
 ------------
 
