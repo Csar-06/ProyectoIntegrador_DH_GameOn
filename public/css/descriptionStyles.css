@@ -1,0 +1,92 @@
+ /*Seccion  */
+ .summary{
+    /* background-color: #121212; */
+    /* z-index: 1; */
+    
+ }/*imagen de la sección */
+ .summary img{ 
+    margin-bottom: 50px;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+.svg{   /* rectangulo/trapecio del fondo*/
+    margin-top: 12%;
+    z-index: 1;
+    
+}
+
+/* contenedor de imagen e informacion bacica del juego */
+.data{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 75px;
+    background-color: #121212;
+    margin-bottom: 50px;
+
+}
+
+/* contenedor de la imagen */
+.data-img{
+    display: none;
+    /* width: 30%;
+   height: 50px; */
+}
+
+/* contenedor de informacion */
+.data-card{
+    width: 100%;
+    margin-bottom: 20px;
+    
+
+}.data-card h2, .data-card p{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+/* precio */
+.data-card p {
+    font-size: 2rem;
+    font-weight: lighter;
+}
+/*Contenedor de los botones de acción  */
+.data-btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.data-btn button{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    background-color: #610C9F;
+
+}
+/* boton "addToWishlist" */
+#addToWishlist-btn{
+    width: 20%;
+    font-size: 30px;
+
+}
+/* boton "addToCart" */
+#addToCart-btn{
+    width: 65%;
+    font-size: 30px;
+}
+#addToCart-btn p{
+    font-size: 20px;    
+    margin: 0;
+}
+
+@media(min-width:768px){
+
+   
+}
+
+@media(min-width: 1024){
+
+}

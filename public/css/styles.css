@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation-bar{
+    width: 100%;
+    padding: 30px 2.5px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #121212;
+
+}
+
+.left-nav{
+    width: 100%;
+    display:flex;
+    justify-content: end;
+}
+.left-nav form button{
+    color: #121212;
+}
+.right-nav{
+    display: none;
+}
+.side-bar{
+    width: 25%;
+    padding: 0px 0;
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    font-size: 2rem;
+}
+
+.navigation-bar div form{
+    display: flex;
+    justify-content: end;
+
+}
+
+.navigation-bar div form button{
+    padding: 0 10px;
+    position: relative;
+    right: 35px;
+    background-color:rgba(0,0,0,0);
+    border: none;
+
+}
+
+.navigation-bar div ul{
+   display: none;
+}
+
+#searchBar{
+    background-color: #202020;
+    border: none;
+    border-radius: 5px;
+    padding-left: 8px;
+}
+
+
+@media(min-width:768px){
+
+    .navigation-bar div ul{
+        padding: 0;
+        display: flex;
+        list-style: none;
+    }
+    .navigation-bar div ul li a{
+        padding-left: 15px;
+        text-decoration: none;
+        color: rgba(255,255,255,0.5);
+    
+    }
+}
+
+@media(min-width: 1024){
+
+
+}
