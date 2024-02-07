@@ -135,6 +135,95 @@
     color: lightslategray;
 }
 
+/* === Seccion de Ediciones del juego === */
+.editions{
+    margin-bottom: 30px;
+    display: block; 
+}
+.editions h2{
+    width: 25%;
+    margin: 0 15px 10px;
+}
+
+.edition-cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.edition-card{
+    width: 65%;
+    margin: 5px;
+    height: 400px;
+    background-color: #202020;
+    border-radius: 10px;
+    transition: all 500ms;
+}
+.edition-card:hover{
+    box-shadow: 0 0 25px #8317b6;
+    scale: 1.02;
+}
+.edition-card a{
+    text-decoration: none;
+
+}
+.edition-card img{
+    width: 100%;
+    border-radius: 10px 10px 0 0 ;
+}
+
+.card-summary{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.card-summary h4{
+    margin-bottom: 10px;
+}
+.summary-list{
+    display: block;
+    height: 25px;
+    padding-top: 5px;
+    padding-left: 5px;
+    max-height: 63px;
+    max-height: 50px;
+}
+
+.summary-list-item{
+    display:flex;
+    padding-top: 5px;
+}
+
+#checkmark-sharp{
+    color: #8317b6;
+}
+.card-summary div p{
+    font-size: 13px;
+}
+
+.summary-bottom{
+    margin-top: 70%;
+}
+
+.card-summary-price{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.discount{
+    font-size: 15px;
+}
+
+.price{
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+
+/*  */
 
 @media(min-width:768px){
 
