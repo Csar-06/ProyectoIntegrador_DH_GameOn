@@ -5,6 +5,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+    background-color: #121212;
+}
+
 .navigation-bar{
     width: 100%;
     padding: 30px 2.5px;

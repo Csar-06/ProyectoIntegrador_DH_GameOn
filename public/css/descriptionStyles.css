@@ -1,8 +1,8 @@
- /*Seccion  */
- /* .summary{
-    background-color: #121212;
-    z-index: 1;  
- } */
+ /* === Seccion === */
+ .summary{
+    margin-bottom: 10px;
+    max-height: 350px;
+ }
  /* imagen de la sección */
  .summary img{ 
     margin-bottom: 50px;
@@ -11,7 +11,7 @@
     z-index: -1;
 }
 .svg{   /* rectangulo/trapecio del fondo*/
-    margin-top: 12%;
+    margin-top: 30%;
     z-index: 1;
     
 }
@@ -23,8 +23,6 @@
     position: relative;
     bottom: 75px;
     background-color: #121212;
-    margin-bottom: 50px;
-
 }
 
 /* contenedor de la imagen */
@@ -43,7 +41,7 @@
 }.data-card h2, .data-card p{
     display: flex;
     justify-content: center;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 /* precio */
 .data-card p {
@@ -85,6 +83,42 @@
     font-size: 20px;    
     margin: 0;
 }
+
+/* === Sección de Visuales === */
+.visuals{
+    margin-bottom: 10px;
+}
+.visuals h2{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 15px 10px;
+    
+}
+.video-trailer{
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 15px;
+}
+
+.images-rail{
+    width: 90%;
+    display: flex;
+    justify-content: baseline;
+    overflow-x: auto;
+    margin: auto;
+   
+}
+.images-rail #first-img{
+    margin: 0;
+}
+.images-rail img{
+    width: 30%;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+
+
 
 @media(min-width:768px){
 
