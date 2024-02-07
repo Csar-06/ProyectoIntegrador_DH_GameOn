@@ -32,6 +32,10 @@ Mi mayor distraccion es la musica, la danza y la lectura.
 Me gustaria dirigirme en el Front End pues siento que es donde mas me desenvuelvo.
 
 ------------
+### Eliecer E. Escudero T.
+Helloo¡¡ Me llamo Eliecer, tengo 22 años, me gusta mucho los videojuegos, me gusta escuchar musica, mi generos favoritos es el rock, me considero un chico sociable y amable
+me gusta jugar deportes y quiero lograr terminar este curso para crecer profesionalmente 😊.
+
 
 
 >### Sitios de Referencia
