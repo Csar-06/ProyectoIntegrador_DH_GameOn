@@ -3,9 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro</title>
+    <title>REGISTRO</title>
+    <link rel="stylesheet" href="../public/css/registerStyle.css">
 </head>
 <body>
-    <h1>REGISTRO</h1>
+    <form action="" method="post">
+        <h1>LOGO</h1>
+        <h4>Sign Up</h4>
+        <input class="caja" type="text" name="ciudad" id="ciudad" placeholder="Country" required>
+        <div class="nombre">
+            <input class="caja" type="text" name="nombre" id="nombre" placeholder="First Name" required>
+            <input class="caja"     type="text" name="apellido" id="apellido" placeholder="Last Name" required>
+        </div>
+        <input class="caja" type="email" name="email" id="email" placeholder="Email Address" required>
+        <input class="caja" type="password" name="password" id="password" placeholder="Password" required>
+        <div class="termino" >
+            <input type="checkbox" id="aceptoTerminos" required>
+            <label for="aceptoTerminos">I have read and agree to the <a href="#">Term of Service</a></label>
+        </div>
+        <button  class="boton" type="submit">LOGIN IN NOW</button>
+        <p class="termino">Already have an GameOn account? <a href="#">Sign In</a></p>
+    </form>
 </body>
 </html>

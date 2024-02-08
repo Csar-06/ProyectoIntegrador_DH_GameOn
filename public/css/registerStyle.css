@@ -1,0 +1,77 @@
+body{
+    background-image: url(https://3.bp.blogspot.com/-iibZfP_3B_s/WkvkPwAaLhI/AAAAAAAACn0/ENM0pGl_vBAZKSn79kq3V1vdxoNd6O-igCLcBGAs/s640/Portada.jpg);
+}
+
+p{
+    color: gray;
+}
+
+form{
+   margin: auto;
+   background-color: #202020;
+   display: flex;
+   flex-direction: column;
+   box-shadow: 0px 0px 20px;
+   max-width: 400px;
+   padding: 10px;
+   margin-top: 5%;
+   margin-bottom: 5%;
+   border-radius: 10px;
+}
+form div{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.caja{
+    width: 83%;
+    color: gray;
+    background-color: black;
+    border-color: transparent;
+    padding: 14px;
+    margin: 22px;
+    border-radius: 5px;
+}
+
+.nombre{
+    width: 100%;
+    color: gray;
+    padding: 1px;
+    margin: 1px;
+}
+
+.boton{
+    background-color: blueviolet;
+    color: white;
+    width: 92%;
+    padding: 14px;
+    margin: 22px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.termino{
+    padding: 9px;
+    margin: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: grey;
+}
+
+h4, h1{
+    color: white;
+    margin: auto;
+    margin-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    transition-duration: 3ms;
+    background-color: rgb(240, 11, 87);
+    cursor: pointer;
+}
