@@ -1,35 +1,41 @@
-*{
+* {
     margin: 0;
     box-sizing: border-box;
     color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
+body {
     background-color: #121212;
 }
 
-.navigation-bar{
+.navigation-bar {
     width: 100%;
     padding: 30px 2.5px;
     display: flex;
     justify-content: space-around;
     background-color: #121212;
-
+    position: fixed;
+    top: 0;
+    box-shadow: 0 1px 5px #202020;
+    z-index: 100;
 }
 
-.left-nav{
+.left-nav {
     width: 100%;
-    display:flex;
+    display: flex;
     justify-content: end;
 }
-.left-nav form button{
+
+.left-nav form button {
     color: #121212;
 }
-.right-nav{
+
+.right-nav {
     display: none;
 }
-.side-bar{
+
+.side-bar {
     width: 25%;
     padding: 0px 0;
     display: flex;
@@ -38,26 +44,26 @@ body{
     font-size: 2rem;
 }
 
-.navigation-bar div form{
+.navigation-bar div form {
     display: flex;
     justify-content: end;
 
 }
 
-.navigation-bar div form button{
+.navigation-bar div form button {
     padding: 0 10px;
     position: relative;
     right: 35px;
-    background-color:rgba(0,0,0,0);
+    background-color: rgba(0, 0, 0, 0);
     border: none;
 
 }
 
-.navigation-bar div ul{
-   display: none;
+.navigation-bar div ul {
+    display: none;
 }
 
-#searchBar{
+#searchBar {
     background-color: #202020;
     border: none;
     border-radius: 5px;
@@ -65,22 +71,56 @@ body{
 }
 
 
-@media(min-width:768px){
+@media(min-width:1024px) {
 
-    .navigation-bar div ul{
+
+    .navigation-bar {
+        width: 100%;
+        padding: 30px;
+        font-size: 18px;
+        justify-content: space-around;
+    }
+
+    .side-bar {
+        display: none;
+    }
+
+    .left-nav {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        padding: auto;
+
+    }
+
+    .left-nav ul {
+        width: 60%;
+    }
+
+    .right-nav {
+        width: 15%;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .navigation-bar div ul {
         padding: 0;
         display: flex;
         list-style: none;
+        margin: auto;
     }
-    .navigation-bar div ul li a{
+
+    .navigation-bar div ul li a {
         padding-left: 15px;
         text-decoration: none;
-        color: rgba(255,255,255,0.5);
-    
+        color: rgba(255, 255, 255, 0.5);
+
     }
-}
 
-@media(min-width: 1024){
-
+    #searchBar{
+        padding: 5px;
+        font-size: 18px;
+    }
 
 }
