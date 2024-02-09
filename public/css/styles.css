@@ -66,7 +66,7 @@ body {
 #searchBar {
     background-color: #202020;
     border: none;
-    border-radius: 5px;
+    border-radius: 15px;
     padding-left: 8px;
 }
 
@@ -97,11 +97,25 @@ body {
         width: 60%;
     }
 
+    .left-nav ul li a {
+        transition:linear 250ms;
+
+    }
+    
+    .left-nav ul li a:hover{
+        color: whitesmoke;
+    }
+
     .right-nav {
         width: 15%;
         display: flex;
         justify-content: space-between;
-
+    }
+    .right-nav ul li a {
+        transition: linear 250ms;
+    }
+    .right-nav ul li a:hover{
+        color: whitesmoke;
     }
 
     .navigation-bar div ul {
@@ -119,8 +133,8 @@ body {
     }
 
     #searchBar{
-        padding: 5px;
-        font-size: 18px;
+        padding: 10px 10px;
+        font-size: 16px;
     }
 
 }
