@@ -1,0 +1,115 @@
+
+
+/* Form */
+fieldset {
+  margin: auto;
+  margin-top: 12%;
+  width: 25%;
+  padding: 40px;
+  justify-content: center;
+  background-color: #202020;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+}
+fieldset h1{
+  width: 25%;
+margin: auto;
+text-align: center;
+font-size: 2rem;
+}
+
+/*video estilos*/
+video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/*forget your password*/
+a {
+  text-align: left;
+  color: white;
+  margin: 10px 0;
+}
+
+/*encabezado principal de la tarjeta*/
+h4 {
+  color: white;
+  text-align: center;
+  margin: 20px 0;
+
+}
+
+
+
+/* modificaciones y estilos de todo el contenido que esta dentro del fieldset o tarjeta */
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 6px;
+  background: #353434d7;
+  box-sizing: border-box;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"]:hover {
+  color: rgb(192, 7, 238);
+}
+
+
+/* estilos en el submit*/
+input[type="submit"] {
+  background-color: #610C9F;
+  color: white;
+  padding: 15px;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  transition: all 250ms;
+}
+
+input[type="submit"]:hover {
+  background-color: blueviolet;
+
+}
+
+/*sing up */
+p {
+  color: white;
+  margin-right: 3px;
+  border: block 2px;
+}
+
+
+.forget-password{
+  margin: 0 0 20px;
+  display: flex;
+  justify-content: end;
+}
+.forget-password a{
+margin: 0;
+}
+
+.sing-up{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.sing-up p{
+  color: lightslategray;
+}

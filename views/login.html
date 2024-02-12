@@ -1,11 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio Sesión</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../public/css/styles.css">
+  <link rel="stylesheet" href="../public/css/login.styless.css">
+
+  <title>Inicio Sesión</title>
 </head>
+
 <body>
-    <h1>INICIO DE SESIÓN</h1>
+
+  <header>
+    <nav class="navigation-bar">
+
+      <div class="side-bar">
+        <ion-icon name="menu" id="side-btn"></ion-icon>
+      </div>
+
+      <div class="left-nav">
+        <form action="#" method="get">
+          <input type="text" name="searchBar" id="searchBar" placeholder="Search">
+          <button type="submit" name="search-button" id="search-button">
+            <ion-icon name="search"></ion-icon>
+          </button>
+        </form>
+
+        <ul>
+          <li><a href="index.html">Discover</a></li>
+          <li><a href="#">Browse</a></li>
+        </ul>
+      </div>
+
+      <div class="right-nav">
+        <ul>
+          <li><a href="#">Wishlist</a></li>
+          <li><a href="cart.html">Cart</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </div>
+
+
+    </nav>
+  </header>
+
+  <section>
+    <form action="" method="get">
+      <fieldset>
+        <h1>LOGO</h1>
+        <h4>sign in with an GameON account</h4>
+        <div class="form-registro">
+          <input type="text" id="email" name="email" placeholder=" email o UserName" required>
+
+          <input type="password" id="password" name="password" placeholder="password" required> <br>
+        </div>
+        <div>
+          <div class="forget-password">
+            <a href="#">Forget your password?</a>
+          </div> <br>
+
+          <div class="boton">
+            <input type="submit" value="LOG IN NOW">
+            <br></br>
+          </div>
+
+          <div class="sing-up">
+            <p> Don't an have GameON account? <a href="register.html"> sign up </a></p>
+          </div>
+
+
+
+      </fieldset>
+    </form>
+  </section>
+
+  <video autoplay loop muted>
+    <source src="../public/vid/login_background_vid.mp4" type="video/webm">
+  </video>
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
 </body>
+
 </html>
