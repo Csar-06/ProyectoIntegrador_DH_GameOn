@@ -68,6 +68,7 @@ body {
     border: none;
     border-radius: 15px;
     padding-left: 8px;
+    color: whitesmoke;
 }
 
 
@@ -126,7 +127,7 @@ body {
     }
 
     .navigation-bar div ul li a {
-        padding-left: 15px;
+        padding-left: 25px;
         text-decoration: none;
         color: rgba(255, 255, 255, 0.5);
 
