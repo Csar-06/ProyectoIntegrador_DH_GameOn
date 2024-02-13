@@ -1,13 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>REGISTRO</title>
     <link rel="stylesheet" href="../public/css/registerStyle.css">
+    <link rel="stylesheet" href="../public/css/styles.css">
 </head>
+
 <body>
-    <form action="" method="post">
+  
+    <header>
+        <nav class="navigation-bar">
+
+            <div class="side-bar">
+                <ion-icon name="menu" id="side-btn"></ion-icon>
+            </div>
+
+            <div class="left-nav">
+                <form action="#" method="get">
+                    <input type="text" name="searchBar" id="searchBar" placeholder="Search">
+                    <button type="submit" name="search-button" id="search-button">
+                        <ion-icon name="search"></ion-icon>
+                    </button>
+                </form>
+
+                <ul>
+                    <li><a href="index.html">Discover</a></li>
+                    <li><a href="#">Browse</a></li>
+                </ul>
+            </div>
+
+            <div class="right-nav">
+                <ul>
+                    <li><a href="#">Wishlist</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </div>
+
+
+        </nav>
+    </header>
+  
+  <form action="" method="post">
         <h1>LOGO</h1>
         <h4>Sign Up</h4>
         <input class="caja" type="text" name="ciudad" id="ciudad" placeholder="Country" required>
@@ -24,5 +61,10 @@
         <button  class="boton" type="submit">LOGIN IN NOW</button>
         <p class="termino">Already have an GameOn account? <a href="#">Sign In</a></p>
     </form>
-</body>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+  </body>
+
 </html>
