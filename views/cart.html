@@ -3,9 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="../public/css/master.css">
+    <title>Game On</title>
 </head>
 <body>
-    <h1>CARRITO DE COMPRAS</h1>
+    <header class="barradenavegación">
+        <div class="fondo">
+            <div class="logo">
+                <img src="./img/logo.png" alt="Game On Logo">
+            </div>
+            <div class="barradebusqueda">
+                <input type="text" class="search-input" placeholder="Search...">
+                <button class="search-button">Search</button>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="discover">Discover</a></li>
+                    <li><a href="#" class="wishlist">Wishlist</a></li>
+                    <li><div class="rectangle6"></div></li>
+                    <li><a href="#" class="mycart">Cart</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="cart">
+            <div class="cart-header">
+                <h2>My Cart</h2>
+                <div class="general">
+                    <div class="container">
+                        <div id="items" class="row">
+                            <div class="product">
+                                <div class="info">
+                                    <img src="../public/images/mortal.jpg" alt="mortal">
+                                    <h3>mortal kombat 11</h3>
+                                    <p>ultimate</p>
+                                    <p>$ 35.99</p>
+                                    <button class="add-to-cart">Add to Cart</button>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="info">
+                                    <img src="../public/images/gran turismo.webp" alt="Gran Turismo 7">
+                                    <h3>Gran Turismo 7</h3>
+                                    <p>$ 15.99</p>
+                                    <button class="add-to-cart">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="summary">
+                            <h3>Games & Apps Summary</h3>
+                            <div class="totals">
+                                <p>Subtotal: <span id="subtotal">$0.00</span></p>
+                                <p>Taxes: <span id="taxes">$0.00</span></p>
+                                <p>Total: <span id="total">$0.00</span></p>
+                            </div>
+                            <button id="checkout-button">CHECK OUT</button>
+                            <button id="empty-cart-button" class="empty-cart">Empty Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="../public/script/script.js"></script>
 </body>
 </html>

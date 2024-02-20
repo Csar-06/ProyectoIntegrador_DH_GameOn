@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #111010;
+  }
+  
+  header, .barradenavegación {
+    background-color: #232222;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  header h1 {
+    color: rgb(5, 5, 5);
+    font-size: 32px;
+  }
+  
+  h3 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 26px; 
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Estilos para la sección general */
+  .general {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .general .container {
+    display: flex;
+    width: 90%; 
+    max-width: 1200px; 
+    height: auto;
+    background-color: rgba(17, 16, 16, 0.8);
+    border-radius: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+    flex-direction: row; 
+  }
+  
+  /* Estilos para la sección de resumen */
+  .summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 40px; 
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 40%; 
+    height: 25%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-right: 40px; 
+  }
+  
+  /* Estilos para la sección de productos */
+  .product {
+    display: flex;
+    align-items: center;
+    background-color: rgb(86, 84, 84);
+    font-size: 20px;
+    padding: 20px;
+    width: 65%; 
+    height: auto;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Agregar estilos para el contenedor de información del producto */
+  .product .info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  /* Agregar estilos para el contenedor de la imagen del producto */
+  .product .info img {
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para los botones "Add to Cart" y "Remove" */
+  .product .info button {
+    padding: 8px 15px;
+    align-self: flex-end; 
+  }
+  
+  /* Estilos para la barra de navegación */
+  nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px; 
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0; 
+  }
+  
+  .barradenavegación .fondo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .barradenavegación .logo img {
+    width: 100px; 
+  }
+  
+  .barradenavegación .barradebusqueda {
+    margin-right: auto; 
+    margin-left: 20px; 
+  }
+  
+  .barradenavegación .discover,
+  .barradenavegación .wishlist,
+  .barradenavegación .mycart {
+    margin-left: 20px; 
+    color: white; 
+    font-size: 18px; 
+    cursor: pointer; 
+  }

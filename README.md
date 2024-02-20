@@ -36,6 +36,13 @@ Me gustaria dirigirme en el Front End pues siento que es donde mas me desenvuelv
 Helloo¡¡ Me llamo Eliecer, tengo 22 años, me gusta mucho los videojuegos, me gusta escuchar musica, mi generos favoritos es el rock, me considero un chico sociable y amable
 me gusta jugar deportes y quiero lograr terminar este curso para crecer profesionalmente 😊.
 
+### Jairo J Clayton.
+Soy joven de 25 años, apasionado por la programación, estoy aprendiendo mucho gracias al grupo de estudio. Me encanta trabajar con lenguajes como JavaScript,html,css,
+me apasionan  los videojuegos, estudio lic. en desarrollo de software en la universidad tecnologica. 
+mi proposito personal es  seguir aprendiendo cada dia más sobre programación y ir adquiriendo mas experiencia .
+
+---------------------
+
 
 
 >### Sitios de Referencia
