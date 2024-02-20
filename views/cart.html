@@ -4,27 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../public/css/master.css">
+    <link rel="stylesheet" href="../public/css/styles.css">
     <title>Game On</title>
 </head>
 <body>
     <header class="barradenavegación">
-        <div class="fondo">
-            <div class="logo">
-                <img src="./img/logo.png" alt="Game On Logo">
-            </div>
-            <div class="barradebusqueda">
-                <input type="text" class="search-input" placeholder="Search...">
-                <button class="search-button">Search</button>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#" class="discover">Discover</a></li>
-                    <li><a href="#" class="wishlist">Wishlist</a></li>
-                    <li><div class="rectangle6"></div></li>
-                    <li><a href="#" class="mycart">Cart</a></li>
-                </ul>
+            <nav class="navigation-bar">
+    
+                <div class="side-bar">
+                    <ion-icon name="menu" id="side-btn"></ion-icon>
+                </div>
+    
+                <div class="left-nav">
+                    <form action="#" method="get">
+                        <input type="text" name="searchBar" id="searchBar" placeholder="Search">
+                        <button type="submit" name="search-button" id="search-button">
+                            <ion-icon name="search"></ion-icon>
+                        </button>
+                    </form>
+    
+                    <ul>
+                        <li><a href="index.html">Discover</a></li>
+                        <li><a href="#">Browse</a></li>
+                    </ul>
+                </div>
+    
+                <div class="right-nav">
+                    <ul>
+                        <li><a href="#">Wishlist</a></li>
+                        <li><a href="cart.html">Cart</a></li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+                </div>
+    
+    
             </nav>
-        </div>
     </header>
     <main>
         <section id="cart">
@@ -67,5 +81,7 @@
         </section>
     </main>
     <script src="../public/script/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
