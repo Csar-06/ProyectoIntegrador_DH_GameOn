@@ -44,24 +44,29 @@
         </nav>
     </header>
 
-    <form action="" method="post">
+    <form action="" method="post" id="myForm">
         <h1>LOGO</h1>
         <h4>Sign Up</h4>
-        <input class="caja" type="text" name="ciudad" id="ciudad" placeholder="Country" required>
+        <input class="caja" type="text" name="ciudad" id="ciudad" placeholder="Country" >
         <div class="nombre">
-            <input class="caja" type="text" name="nombre" id="nombre" placeholder="First Name" required>
-            <input class="caja" type="text" name="apellido" id="apellido" placeholder="Last Name" required>
+            <input class="caja" type="text" name="nombre" id="nombre" placeholder="First Name" >
+            <input class="caja" type="text" name="apellido" id="apellido" placeholder="Last Name" >
         </div>
-        <input class="caja" type="email" name="email" id="email" placeholder="Email Address" required>
-        <input class="caja" type="password" name="password" id="password" placeholder="Password" required>
+        <input class="caja" type="email" name="email" id="email" placeholder="Email Address" >
+        <input class="caja" type="password" name="password" id="password" placeholder="Password" >
         <div class="termino">
-            <input type="checkbox" id="aceptoTerminos" required>
+            <input type="checkbox" id="aceptoTerminos" >
             <label for="aceptoTerminos">I have read and agree to the <a href="#">Term of Service</a></label>
         </div>
-        <button class="boton" type="submit">LOGIN IN NOW</button>
+        <div class="msj-alerta" id="msj-campo-vacio">
+            
+        </div>
+        <button class="boton" type="submit" id="submit_button" >LOGIN IN NOW</button>
         <p class="termino">Already have an GameOn account? <a href="login.html">Sign In</a></p>
     </form>
-
+    
+    <!--  Scripts -->
+    <script src="../public/js/register.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
