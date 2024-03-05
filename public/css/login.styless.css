@@ -113,3 +113,12 @@ margin: 0;
 .sing-up p{
   color: lightslategray;
 }
+
+.msj-alerta{
+    
+  padding: 5px 3  px;
+  margin: 15px 0;
+  display: none;
+  justify-content: center;
+  background-color: rgba(240, 11, 87,.5);
+}

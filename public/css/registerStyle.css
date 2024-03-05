@@ -62,11 +62,9 @@ form div{
 .msj-alerta{
     
     padding: 5px 30px;
-    display: flex;
-    justify-content: center;
-    
-    background-color: rgba(240, 11, 87,.5);
     display: none;
+    justify-content: center;
+    background-color: rgba(240, 11, 87,.5);
 }
 
 h4, h1{

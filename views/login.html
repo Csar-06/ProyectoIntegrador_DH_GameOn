@@ -46,19 +46,23 @@
   </header>
 
   <section>
-    <form action="" method="get">
+    <form action="" method="get" id="myForm">
       <fieldset>
         <h1>LOGO</h1>
         <h4>sign in with an GameON account</h4>
         <div class="form-registro">
-          <input type="text" id="email" name="email" placeholder=" email o UserName" required>
+          <input type="text" id="email" name="email" placeholder=" email o UserName" >
 
-          <input type="password" id="password" name="password" placeholder="password" required> <br>
+          <input type="password" id="password" name="password" placeholder="password" > <br>
         </div>
         <div>
           <div class="forget-password">
             <a href="#">Forget your password?</a>
           </div> <br>
+
+          <div class="msj-alerta" id="msj-campo-vacio">
+            
+          </div>
 
           <div class="boton">
             <input type="submit" value="LOG IN NOW">
@@ -78,7 +82,8 @@
   <video autoplay loop muted>
     <source src="../public/video/login_background_vid.mp4" type="video/webm">
   </video>
-
+  
+  <script src="../public/js/login.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 

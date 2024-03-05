@@ -1,6 +1,7 @@
 const form = document.getElementById('myForm');
+
 form.addEventListener('submit', function (event) {
-    event.preventDefault();
+    event.preventDefault(); 
     const formData = new FormData(form);
 
     const ciudad = formData.get('ciudad');
@@ -19,8 +20,6 @@ form.addEventListener('submit', function (event) {
         // alert('Por favor, complete todos los campos y acepte los términos y condiciones.');
         return;
     }
-
-
 
     form.submit();
 });
