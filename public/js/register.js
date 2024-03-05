@@ -11,7 +11,7 @@ form.addEventListener('submit', function (event) {
     const password = formData.get('password');
     const aceptoTerminos = document.getElementById('aceptoTerminos');
     const mjs_campoVacio = document.getElementById('msj-campo-vacio')
-    let submit_button = document.getElementById("submit_button")
+    // let submit_button = document.getElementById("submit_button")
 
 
     if (!ciudad || !nombre || !apellido || !email || !password || !aceptoTerminos.checked) {
