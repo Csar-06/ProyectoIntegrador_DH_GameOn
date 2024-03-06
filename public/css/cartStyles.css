@@ -1,44 +1,49 @@
 /* Tarjeta de facturacion */
-main{
-  margin-top: 10% ;
+main {
+  margin-top: 10%;
 }
 
-h1{
+h1 {
   margin: 50px;
   font-size: 4rem;
   font-weight: bold;
 }
 
-.game-summary{
+.game-summary {
   width: 20%;
   position: fixed;
   left: 75%;
   background-color: #202020;
   border-radius: 10px;
 }
-.card{
-  display:flex;
+
+.card {
+  display: flex;
   flex-direction: column;
-  margin:5%;
+  margin: 5%;
 }
-.card h2{
+
+.card h2 {
   width: 70%;
   margin: auto;
   text-align: center;
   margin-bottom: 2rem;
 }
-.card div{
+
+.card div {
   display: flex;
   justify-content: space-between;
   padding: 12px;
-} 
+}
+
 .card div label,
 .card div p,
-.card hr{
+.card hr {
   color: rgba(255, 255, 255, .5);
 
 }
-.card input{
+
+.card input {
   margin-top: 2rem;
   padding: 15px;
   background-color: #610c9f;
@@ -47,25 +52,111 @@ h1{
   font-weight: bold;
   transition: all 200ms;
 }
-.card input:hover{
-  background-color:blueviolet;
+
+.card input:hover {
+  background-color: blueviolet;
   box-shadow: 0 0 25px #610c9f;
-  scale:1.05;
+  scale: 1.05;
+}
+
+/* Seccion Lista de productos */
+.game-list {
+  width: 69%;
+  margin-left: 50px;
+
+}
+
+.game-list a {
+  text-decoration: none;
+}
+
+.container {
+  padding: 10px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  background-color: #202020;
+  border-radius: 10px;
+  transition: all 200ms;
+
+
+}
+
+.container:hover {
+  scale: 1.01;
+  box-shadow: 0 0 20px rgba(255, 255, 255, .25);
+}
+
+.container div {
+  width: 100%;
+  position: relative;
+  right: 2%;
+  margin: 10px 10px 10px 0;
+  align-items: center;
+}
+
+.container div label,
+.container div h3 {
+  position: relative;
+  right: 2%;
+  margin: 10px 0;
+}
+
+.container div label {
+  font-size: 12px;
+  background-color: #373737;
+  padding: 5px 10px;
+  border-radius: 20px;
+
+}
+
+.container div h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  
+
+}
+
+.container div div {
+  display: flex;
+}
+
+.container div div ion-icon,
+.container div div p {
+  font-size: 18px;
+}
+
+.container .price {
+  /* position: relative;
+  left: 35%;
+  top: 25%; */
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  margin-top: 18%;
+  font-size: 3rem;
+  font-weight: bold;
 }
 
 
-img{
-  width: 25%;
+img {
+  width: 20%;
+  height: 200px;
+  margin: 12px;
+  border-radius: 10px;
+  transform: scaleX(80%);
+  position: relative;
+  right: 2%;
 }
 
 
 
 /* Botones de los contenedores de los juegos */
 .container-btn {
-  font-size: 14px;
-  color: #e1e1e1;
+  font-size: 12px;
+  color: rgba(225, 225, 225, .5);
   font-family: inherit;
-  font-weight: 800;
+  font-weight: lighter;
   cursor: pointer;
   position: relative;
   border: none;
