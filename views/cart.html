@@ -1,87 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../public/css/master.css">
+    <link rel="stylesheet" href="../public/css/cartStyles.css">
     <link rel="stylesheet" href="../public/css/styles.css">
     <title>Game On</title>
 </head>
+
 <body>
     <header class="barradenavegación">
-            <nav class="navigation-bar">
-    
-                <div class="side-bar">
-                    <ion-icon name="menu" id="side-btn"></ion-icon>
-                </div>
-    
-                <div class="left-nav">
-                    <form action="#" method="get">
-                        <input type="text" name="searchBar" id="searchBar" placeholder="Search">
-                        <button type="submit" name="search-button" id="search-button">
-                            <ion-icon name="search"></ion-icon>
-                        </button>
-                    </form>
-    
-                    <ul>
-                        <li><a href="index.html">Discover</a></li>
-                        <li><a href="#">Browse</a></li>
-                    </ul>
-                </div>
-    
-                <div class="right-nav">
-                    <ul>
-                        <li><a href="#">Wishlist</a></li>
-                        <li><a href="cart.html">Cart</a></li>
-                        <li><a href="login.html">Login</a></li>
-                    </ul>
-                </div>
-    
-    
-            </nav>
+        <nav class="navigation-bar">
+
+            <div class="side-bar">
+                <ion-icon name="menu" id="side-btn"></ion-icon>
+            </div>
+
+            <div class="left-nav">
+                <form action="#" method="get">
+                    <input type="text" name="searchBar" id="searchBar" placeholder="Search">
+                    <button type="submit" name="search-button" id="search-button">
+                        <ion-icon name="search"></ion-icon>
+                    </button>
+                </form>
+
+                <ul>
+                    <li><a href="index.html">Discover</a></li>
+                    <li><a href="#">Browse</a></li>
+                </ul>
+            </div>
+
+            <div class="right-nav">
+                <ul>
+                    <li><a href="#">Wishlist</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </div>
+
+
+        </nav>
     </header>
+
     <main>
-        <section id="cart">
-            <div class="cart-header">
-                <h2>My Cart</h2>
-                <div class="general">
-                    <div class="container">
-                        <div id="items" class="row">
-                            <div class="product">
-                                <div class="info">
-                                    <img src="../public/images/mortal.jpg" alt="mortal">
-                                    <h3>mortal kombat 11</h3>
-                                    <p>ultimate</p>
-                                    <p>$ 35.99</p>
-                                    <button class="add-to-cart">Add to Cart</button>
-                                </div>
-                            </div>
-                            <div class="product">
-                                <div class="info">
-                                    <img src="../public/images/gran turismo.webp" alt="Gran Turismo 7">
-                                    <h3>Gran Turismo 7</h3>
-                                    <p>$ 15.99</p>
-                                    <button class="add-to-cart">Add to Cart</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="summary">
-                            <h3>Games & Apps Summary</h3>
-                            <div class="totals">
-                                <p>Subtotal: <span id="subtotal">$0.00</span></p>
-                                <p>Taxes: <span id="taxes">$0.00</span></p>
-                                <p>Total: <span id="total">$0.00</span></p>
-                            </div>
-                            <button id="checkout-button">CHECK OUT</button>
-                            <button id="empty-cart-button" class="empty-cart">Empty Cart</button>
-                        </div>
+
+        <h1>My Cart</h1>
+        <section class="game-summary">
+            <div class="card">
+
+                <h2>Games & Apps Summary</h2>
+
+                <div>
+                    <label>Price</label>
+                    <p>$0.00</p>
+                </div>
+                <div>
+                    <label>Taxes</label>
+                    <p>Calculated at Checkout</p>
+                </div>
+
+                <hr>
+
+                <div>
+                    <label for="">Subtotal</label>
+                    <p>$0.00</p>
+                </div>
+
+                <input type="button" value="CHECK OUT">
+
+            </div>
+        </section>
+
+        <section class="game-list">
+
+            <div class="container"> <!--Imagen del producto-->
+                <img src="../public/images/game-sonic-superstars/banner_Sonic_Superstars.jpeg"
+                    alt="banner_Sonic_Superstars">
+
+                <div> <!--  Detalles del producto -->
+                    <label for="">BASE GAME</label>
+                    <h3>Sonic Superstars</h3>
+                    <div>
+                        <ion-icon name="logo-usd"></ion-icon>
+                        <p>Earn 8% back in V-coins</p>
                     </div>
+                    <div>
+                        <button class="container-btn"> Move to Wishlist </button>   |
+                        <button class="container-btn"> Remove </button>
+                    </div>
+                </div>
+                <div>
+                    <p>$0.00</p>
                 </div>
             </div>
         </section>
+
     </main>
+
+
     <script src="../public/script/script.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>
