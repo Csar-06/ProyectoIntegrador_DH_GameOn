@@ -84,7 +84,10 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: blueviolet;
+  background-color: rgb(138, 43, 226);
+  box-shadow: 0 0 25px #610c9f;
+  scale: 1.05;
+  cursor: pointer;
 
 }
 
