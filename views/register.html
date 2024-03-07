@@ -44,29 +44,33 @@
         </nav>
     </header>
 
-    <form action="" method="post" id="myForm">
+    <form action="register.html" method="get" id="myForm" novalidate>
         <h1>LOGO</h1>
         <h4>Sign Up</h4>
         
         <input class="caja" type="text" name="ciudad" id="ciudad" placeholder="Country">
-        
+        <div class="msj-alerta" id="msj-alert-ciudad"></div>
+
         <div class="nombre">
             <input class="caja" type="text" name="nombre" id="nombre" placeholder="First Name">
             <input class="caja" type="text" name="apellido" id="apellido" placeholder="Last Name">
         </div>
+        <div class="msj-alerta" id="msj-alert-nombre-apellido"></div>
 
         <input class="caja" type="email" name="email" id="email" placeholder="Email Address">
+        <div class="msj-alerta" id="msj-alert-email">    </div>
 
         <input class="caja" type="password" name="password" id="password" placeholder="Password">
+        <div class="msj-alerta" id="msj-alert-password"></div>
 
         <div class="termino">
             <input type="checkbox" id="aceptoTerminos">
             <label for="aceptoTerminos">I have read and agree to the <a href="#">Term of Service</a></label>
         </div>
 
-        <div class="msj-alerta" id="msj-campo-vacio"> </div>
+        <div class="msj-alerta" id="msj-alert-terminosCondiciones"> </div>
 
-        <button class="boton" type="submit" id="submit_button">LOGIN IN NOW</button>
+        <button class="boton" type="submit" id="submit_button" disabled>REGISTER NOW</button>
         <p class="termino">Already have an GameOn account? <a href="login.html">Sign In</a></p>
     </form>
 
